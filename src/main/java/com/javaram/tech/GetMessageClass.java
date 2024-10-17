@@ -8,6 +8,11 @@ public class GetMessageClass {
 	
 	
 	@GetMapping("/msg")
+	public String getMsg() {
+		return "Welcome to JavaRam.0000000000000000000.!!";
+	}
+	
+	@GetMapping("/message")
 	public String getMessage() {
 		return "Welcome to JavaRam.0000000000000000000.!!";
 	}
