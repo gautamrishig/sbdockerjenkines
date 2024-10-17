@@ -9,7 +9,7 @@ public class GetMessageClass {
 	
 	@GetMapping("/msg")
 	public String getMsg() {
-		return "Welcome to JavaRam.0000000000000000000.!!";
+		return "Welcome to JavaRam.docker.!!";
 	}
 	
 	@GetMapping("/message")
