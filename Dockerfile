@@ -1,5 +1,5 @@
 FROM openjdk:17-jdk-alpine
 EXPOSE 8080
-COPY target/sbdockerjenkines.jar /sbdockerjenkines.jar
-ENTRYPOINT ["java","-jar","/sbdockerjenkines.jar"]
+ADD target/sbdockerjenkines.jar sbdockerjenkines.jar
+ENTRYPOINT ["java","-jar","sbdockerjenkines.jar"]
 
